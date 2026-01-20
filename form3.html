@@ -9,9 +9,9 @@
         <h2>Your Information</h2>
         <form>
             <label for="first name">First name:</label>
-            <input type="text" id="first name" name="first name"><br><br>
+            <input type="text" id="first name" name="first name" placeholder="FIRST NAME"><br><br>
             <label for="last name">Last name:</label>
-            <input type="text" id="last name" name="last name"><br><br>
+            <input type="text" id="last name" name="last name" placeholder="LAST NAME"><br><br>
 
             Gender:
             <input type="radio" id="male" name="gender" value="male">
@@ -27,12 +27,22 @@
             <input type="checkbox" id="english" name="languages" value="english">
             <label for="english">English</label><br><br>
 
+            <select name="city" id="city">
+                <option value="kathmandu">Kathmandu</option>
+                <option value="pokhara">Pokhara</option>
+                <option value="lalitpur">Lalitpur</option>
+                <option value="birgunj">Birgunj</option>
+                <option value="janakpur">Janakpur</option>
+                <option value="biratnagar">Biratnagar</option>
+            </select><br><br>
+
             <label for="email">Email:</label>
             <input type="text" id="email" name="email"><br><br>
             <label for="address">Address:</label>
-            <textarea id="address" name="address" rows="5" cols="30"></textarea><br><br>
+            <textarea id="address" name="address" rows="5" cols="30" placeholder="Please provide you current address."></textarea><br><br>
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
         </form>
     </body>
+
 </html>
